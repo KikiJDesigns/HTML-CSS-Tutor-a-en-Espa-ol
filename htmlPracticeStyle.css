@@ -1,0 +1,161 @@
+h1 {
+	text-align: center;
+	font-family: Rockwell;
+	color: Black;
+	font-size: 350%;
+}
+.title {
+	font-family: Rockwell;
+	color: DarkCyan;
+	font-size: 200%;
+	text-align:center;
+}
+.container {
+	background-color: translucent;
+	padding-left:10%;
+	padding-right:10%;
+}
+.container p {
+	font-size:120%;
+}
+.animated fadeIn {
+	animation-delay:7s;
+}
+.back3top {
+	background-color:white;
+	position: right bottom fixed;
+}
+p {
+	font-family: Perpetua;
+	font-size:100%;
+}
+html {
+	background-image:url('1225831011.jpg');
+	background-attachment:fixed; 
+}
+body {
+}
+
+/* Navigation Bar */
+.nav ul {
+	list-style-type: none;
+	background-color: translucent;
+	text-align:center;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+}
+.nav li {
+	font-family:'Arial Black';
+	font-size:70%;
+	line-height:40px;
+	height:40px;
+	border-bottom:.5px solid #888;
+	text-transform: uppercase;
+}
+.nav a:link, a:visited {
+	display:block;
+	color: DarkCyan;
+	font-size:150%;
+	padding-left: 15px;
+	border-bottom:1px solid#888;
+	text-decoration:none;
+	transition:.3s background-color;
+}
+a:hover, a:active {
+	color:#000000;
+	cursor:default;
+}
+/*Sub Navs*/
+.nav li li {
+	font-size: .8em;
+}
+@media screen and (min-width:600px){
+	.nav li {
+		width:130px;
+		border-bottom:none;
+		height:50px;
+		line-height:50px;
+		font-size:70%;
+		display:inline-block;
+		margin-right: -4px;
+	}
+	.nav a {
+		border-bottom:none;
+	}
+	.nav > ul > li {
+		text-align: center;
+	}
+	.nav > ul >li > a {
+		padding-left:0;
+	}
+	/* Sub Menus */
+	.nav li ul {
+		position:absolute;
+		display:none;
+		width:inherit;
+	}
+	.nav li:hover ul {
+		display:block;
+	}
+	.nav a:hover, a:active {
+		color:#000000;
+		cursor:pointer;
+	}
+	.nav li ul li {
+		display:block;
+	}
+}
+#footer {
+	background-color:transparent;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#header {
+	background-color:transparent;
+}
+#imagelogos {
+	text-align: center;
+}
+#imageEx {
+	text-align: center;
+}
+#link{
+	font-size:200%;
+	cursor:pointer;
+}
+#link a:visited a:link {
+	font-family:Rockwell;
+	color:DarkCyan;
+	font-size:200%;
+	text-align:center;
+}
+#link a:hover, a:active {
+	font-family:Rockwell;
+	color:black;
+	font-size:200%;
+}
+#page_part_link {
+	font-size:20px;
+	color:black;
+	cursor:pointer;
+}
+#page_part_link a:visited a:link {
+	font-family:Perpetua;
+	color:black;
+	text-align:center;
+	font-size:22px;
+}
+#page_part_link a:hover a:active{
+	font-family:perpetua;
+	color:oldlace;
+	font-size:30px;
+}
+#back2top {
+	font-size:20px;
+	color:black;
+	cursor:pointer;
+	right:45px;
+	position:bottom;
+}
